@@ -160,7 +160,7 @@ int main() {
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
 
-    ofstream fout("C:\\Users\\Sasha\\Downloads\\results.txt");
+    ofstream fout("results.txt");
     if (!fout.is_open()) {
         cerr << " не вдалося створити файл results.txt\n";
         return 1;
